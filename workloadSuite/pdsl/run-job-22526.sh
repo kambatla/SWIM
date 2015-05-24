@@ -1,0 +1,3 @@
+/home/kkambatl/install/hadoop-3.0.0-SNAPSHOT/bin/hadoop jar /home/kkambatl/WorkGen.jar org.apache.hadoop.examples.WorkGen -conf /home/kkambatl/workGenKeyValue_conf.xsl -r 1 inputPath-job-22526.txt workGenOutputTest-22526 1.7869763E-5 24466.79 >> workGenLogs/job-22526.txt 2>> workGenLogs/job-22526.txt 
+/home/kkambatl/install/hadoop-3.0.0-SNAPSHOT/bin/hadoop dfs -rmr workGenOutputTest-22526
+# inputSize 57303500
